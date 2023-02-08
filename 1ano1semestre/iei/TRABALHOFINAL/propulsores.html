@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <title>História dos carros</title>
+  <!-- Bootstrap minified CSS -->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <!-- LeaftLet CSS e JavaScript -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css">
+  <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+  <!-- Personal Styles -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- HighCharts javascript-->
+  <script src="http://code.highcharts.com/highcharts.js"></script>
+  <!-- Grafico-->
+  <script src="js/graphic.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+  <!-- Bootstrap JavaScript -->
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <nav class="navbar-navbar-default">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html" style="font-size: 20px; color:#87CEEB">História dos carros</a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="item"><a href="index.html"> Geral </a></li>
+        <li class="dropdown">
+          <a href="#primeiroprototipo" class="dropdown-toggle" data-toggle="dropdown">
+            Primeiros protótipos<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="osprimeiros.html" target="_self"> <b>O pioneiro</b></a></li>
+            <li class="divider"></li>
+            <li><a href="osprimeiros.html" target="_self"> <b>O triciclo de Benz</b></a></li>
+          </ul>
+        </li>
+        <li class="item"><a href="erasdainvencao.html" target="_self"> Eras da Invenção </a></li>
+        <li class="item"><a href="propulsores.html" target="_self">Propulsores da evolução</a></li>
+        <li class="item"><a href="industria.html" target="_self">A Indústria</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown">
+            O futuro<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="futuro.html" target="_self" target="_self"> <b>A Mudança</b></a></li>
+            <li class="divider"></li>
+            <li><a href="futuro.html" target="_self"> <b>Inovação do automóvel</b></a></li>
+            <li class="divider"></li>
+            <li><a href="futuro.html" target="_self"> <b>O lado negro da evolução</b></a></li>
+          </ul>
+        </li>
+        <li class="item"><a href="vertente.html" target="_self"> Vertente não urbana</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="about.html" style="font-size: 16px; color:#87CEEB" target="_blank">
+            <span class="glyphicon glyphicon-user"></span> Acerca</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</head>
+<body>
+    <div class="container">
+        <div style="text-align:left" style="width:50%">
+          <h2> A influência das Guerras </h2>
+            <p>
+              O desenvolvimento do automóvel foi determinado principalmente pelas alterações
+              económicas e sociais resultantes da I Guerra Mundial. A produção em
+              massa e a estandardização utilizadas na fabricação de armamento são aplicadas
+              à indústria automóvel.</p>
+            <p>
+              A guerra proporcionou a conceção dos carros, devido à necessidade de um meio
+              de locomoção mais fortificado e mais seguro. Esta enorme demanda fez com que a indústria automóvel
+              alterasse os seus modelos tendo como base os carros militares priorizando a
+              segurança, que era o seu ponto mais forte.
+              Apesar disso as guerras levaram mais do que o que trouxeram.
+            </p>
+        </div>
+    </div>
+    <div class="container">
+     <div style="text-align:left" style="width:50%">
+        <h2> Consequências</h2>
+        <p>
+            A entrada na década de 1940 não foi fácil para nenhuma área e em nenhum
+            ponto do mundo. A Segunda Guerra Mundial, que teve o seu rastilho
+            na invasão da Polônia pela Alemanha nazi, a 1 de setembro de 1939, colocou
+            muitos setores em standby, tal como a construção de automóveis com o retalho
+            como destino, o que veio também a atrasar a área mais criativa relacionada
+            com os carros.
+            Assim, os fabricantes de automóveis interromperam as linhas de montagem
+            de automóveis para construir tanques e aviões com a guerra como destino. No
+            entanto, o desenvolvimento destas duas áreas acabaria por ser essencial no desenvolvimento da
+            indústria.
+        </p>
+        <p>
+            No fim da guerra, em 1945, após a rendição do Japão, na sequência do
+            lançamento de duas bombas atómicas, em Hiroshima e Nagasaki, o mundo voltou
+            a carregar no botão de reiniciar todos os setores que tinham ficado adormecidos
+            ao longo de seis anos.
+            No entanto, o conflito acabaria por resultar na escassez de materiais como o
+            alumínio e o zinco, o que implicou recorrer ao ferro fundido e ao aço para construir
+            automóveis, que se caracterizavam por serem pesados e desconfortáveis no andamento.
+        </p>
+      </div>
+    </div>
+    <br>
+    <div class="graphic-container">
+      <canvas id="graphic"></canvas>
+      <script src="js/graphic.js"></script>
+      <br>
+      <p>
+        De notar, na década de 30 a produção foi atingida pela Grande Depressão e na década de 40 pelos custos da II Guerra Mundial. No entanto,
+        com o desenvolvimento conseguido graças à guerra, nas décadas seguintes os números de produção aumentaram.
+      </p>     
+    </div>
+  <br>
+  <footer>André Alexandre / Tiago Melo</footer>
+</body>
+</html>

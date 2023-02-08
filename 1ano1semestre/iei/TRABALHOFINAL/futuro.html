@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <title>História dos carros</title>
+  <!-- Bootstrap minified CSS -->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <!-- LeaftLet CSS e JavaScript -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css">
+  <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+  <!-- Personal Styles -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- HighCharts javascript-->
+  <script src="http://code.highcharts.com/highcharts.js"></script>
+  <!-- Grafico -->
+  <script src="js/emissoes.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+  <!-- Bootstrap JavaScript -->
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <nav class="navbar-navbar-default">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html" style="font-size: 20px; color:#87CEEB">História dos carros</a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="item"><a href="index.html"> Geral </a></li>
+        <li class="dropdown">
+          <a href="#primeiroprototipo" class="dropdown-toggle" data-toggle="dropdown">
+            Primeiros protótipos<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="osprimeiros.html" target="_self"> <b>O pioneiro</b></a></li>
+            <li class="divider"></li>
+            <li><a href="osprimeiros.html" target="_self"> <b>O triciclo de Benz</b></a></li>
+          </ul>
+        </li>
+        <li class="item"><a href="erasdainvencao.html" target="_self"> Eras da Invenção </a></li>
+        <li class="item"><a href="propulsores.html" target="_self">Propulsores da evolução</a></li>
+        <li class="item"><a href="industria.html" target="_self">A Indústria</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown">
+            O futuro<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#mudanca"> <b>A Mudança</b></a></li>
+            <li class="divider"></li>
+            <li><a href="#inovacao"> <b>Inovação do automóvel</b></a></li>
+            <li class="divider"></li>
+            <li><a href="#ladonegro"> <b>O lado negro da evolução</b></a></li>
+          </ul>
+        </li>
+        <li class="item"><a href="vertente.html" target="_self"> Vertente não urbana</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="about.html" style="font-size: 16px; color:#87CEEB" target="_blank">
+            <span class="glyphicon glyphicon-user"></span> Acerca</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</head>
+<body>
+    <div id= "#mudanca" class="container">
+        <div style="text-align:left" style="width:50%">
+            <h2>A Mudança</h2>
+            <br>
+            <p>
+              Atualmente quase todas as empresas estão a mudar o
+              seu foco total para a produção de carros elétricos, maioritariamente pelo facto de
+              quererem reduzir a emissão de CO2 para a atmosfera, e também estão a investir
+              fortemente no digital.
+            </p>
+            <h3>Fatores que levaram á mudança</h3>
+            <ul>
+              <li>Um dos fatores que mais tem afetado a procura por veículos elétricos no
+                mundo inteiro é o conjunto de incentivos governamentais para a transição
+                elétrica. Por exemplo, o apoio financeiro às fábricas e a crescente imple-
+                mentação de charging stations, ao longo de todo o mundo, onde é possível
+                carregar o veículo gratuitamente.</li>
+              <br>
+              <li>
+                O facto de não haver poluição sonora e emissão de CO2, a quando do seu
+                funcionamento, para a atmosfera é também um dos motivos da procura.
+                Isto devido ao motor bastante silencioso e ecofriendly que move os veículos.
+                Mesmo que ainda haja emissão de poluentes e gases que provocam o efeito
+                estufa (queima de carvão e exploração do lítio, por exemplo), muitas dessas
+                emissões mais prejudiciais para a saúde ocorrem em locais controlados
+                longe do centros urbanos.
+              </li>
+            </ul>
+        </div>
+    </div>
+    <br>
+    <div class="graphic-container">
+      <canvas id="graphic"></canvas>
+      <script src="js/emissoes.js"></script>
+      <br>
+      <p>
+        Dados da International Energy Agency (IEA)
+      </p>     
+    </div>
+    <br>
+    <div id= "#inovacao" class="container">
+        <div style="text-align:left" style="width:50%">
+            <h2>Inovação do automóvel</h2>
+            <br>
+            <ul>
+              <li>
+                Sistemas inteligentes que detectam danos nas jantes do automóvel, imper-
+                ceptíveis à vista, e perdas de pressão repentinas de um pneu em tempo
+                real.
+              </li>
+              <br>
+              <li>
+                Um para-sol desenvolvido pela Bosch que elimina o risco da diminuição do
+                campo visual do condutor. Este para-sol não é nada mais que um LCD que
+                contém uma câmera voltada para o condutor e que reconhece se o condutor
+                está a fechar os olhos. Quando isso acontece o visor oferece proteção contra
+                a luz somente na região dos olhos diminuindo assim o bloqueio da visão.
+              </li>
+              <br>
+              <li>
+                Um automóvel movido a água. A empresa nanoFLOWCELL desenvolveu
+                um veículo, o QUANT e-Sportlimousine, que já tem autori-
+                zação para circular nas ruas de toda a Europa. O sistema que o permite
+                fazer isso é composto por nanocélulas de fluxo e uma bateria química que
+                possui duas soluções eletrolíticas que usam água salgada para produzir
+                energia elétrica para movimentar os quatro motores que por fim fazem
+                mover as rodas do automóvel. Apesar de o motor funcionar essencialmente
+                com água, este é capaz de produzir 912 cavalos de potência.
+                Tem também uma autonomia de até 600 Km, que é bem maior do que os
+                carros elétricos comuns que tem mais ou menos uma autonomia de até 150
+                Km.
+              </li>
+              <br>
+              <li>
+                Self-driving cars. Embora esta funcionalidade já exista em diversos auto-
+                móveis, por exemplo, os que estacionam sozinhos ou aceleram e travam me-
+                diante o comportamento do carro que os precede (adaptive cruise control),
+                várias empresas como a Google e a Tesla estão a estudar esta tecnologia
+                para que dentro dos próximos 10 anos os automóveis sejam capazes de fazer
+                viagens do ponto A ao ponto B de uma forma completamente autónoma e
+                segura.
+              </li>
+            </ul>
+        </div>
+    </div>
+    <div id= "#ladonegro" class="container">
+        <div style="text-align:left" style="width:50%">
+            <h2>O lado negro da evolução</h2>
+            <br>
+            <p>
+              Apesar de tudo a evolução nunca é só positiva, e a evolução dos automóveis
+              não é diferente.Alguns dos contras são:
+            </p>
+            <ul>
+              <li>Os preços altos e a baixa autonomia são um dos maiores problemas aponta-
+                  dos a estes automóveis. Para se optar por um veículo elétrico mais barato
+                  sacrifica-se bastante a sua autonomia sendo que os mais baratos tem uma
+                  autonomia que ronda os 300Km enquanto que os elétricos de topo de gama
+                  conseguem percorrer pouco mais de 600 Km, quase o dobro, mas o preço
+                  também aumenta de uma forma significativa.
+                  A questão da baixa autonomia impede também a produção de diferentes
+                  tipos de veículos, por exemplo veículos off-road.
+              </li>
+              <br>
+              <li>
+                Para a produção dos mesmos é também necessário explorar minérios
+                extraídos de terras raras, como o disprósio, o lantânio, e neodímio e o
+                praseodímio, que tal como o nome indica são raros e a sua exploração é
+                bastante poluidora para o ambiente.
+              </li>
+            </ul>
+        </div>
+    </div>
+    <br>
+  <footer>André Alexandre / Tiago Melo</footer>
+</body>
+</html>

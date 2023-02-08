@@ -1,0 +1,185 @@
+/* style for the about page */
+
+.style_about {
+  color: black;
+  background-color: white;
+  text-align: center;
+}
+.element {
+  border: 2px groove #87CEEB;
+  background-color: #382e31;
+  color: white
+}
+
+.container {
+display: flex;
+}
+
+.container .element {
+flex: 1; 
+margin: 10px; 
+}
+
+.collapse-button {
+background-color: #87CEEB;
+border: white;
+color: #382e31;
+padding: 6px 15px;
+text-align: center;
+border-radius: 15px;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+}
+
+/* style for index page */
+.navbar-navbar-default {
+  background-color: #382e31;
+  color: white;
+}
+.item a {
+color: white;
+font-size: 15px;
+text-shadow: 1px 1px 1px black;
+letter-spacing: 0.3px;
+font-weight: 300;
+}
+
+a.dropdown-toggle {
+color: white;
+font-size: 15px;
+text-shadow: 1px 1px 1px black;
+letter-spacing: 0.3px;
+font-weight: 300;
+}
+
+.item a:hover {
+color: black;
+font-size: 15px;
+border-radius: 10px;
+}
+a.dropdown-toggle:hover {
+color: black;
+font-size: 15px;
+border-radius: 10px;
+}
+.navbar {
+position: relative;
+}
+.dropdown-menu li a {
+color: white;
+font-size: 14px;
+letter-spacing: 0.3px;
+font-weight: 300;
+}
+.dropdown-menu {
+display: none;
+position: absolute;
+top: 100%;
+left: 0;
+z-index: 1;
+transition: all 0.5s ease;
+background-color: #382e31;
+}
+
+.dropdown:hover .dropdown-menu {
+padding: 10px 10px;
+border-radius: 10px;
+display: block;
+}
+html {
+scroll-behavior: smooth;
+}
+footer {
+background-color: #382e31;
+color: white;
+text-align: center;
+padding: 15px 25px;
+}
+
+#slideshow {
+  position: relative;
+}
+  
+.slide {
+  display: none;
+  width: 100%;
+}
+
+.image-button {
+  position: absolute;
+  bottom: 20px;
+  right: 38%;
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  border: 2px solid white;
+  padding: 10px 20px;
+}
+
+.timeline-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.timeline-item {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+.timeline-header {
+  background-color: #007bff; 
+  color: #fff; 
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.timeline-header:hover {
+  background-color: #0069d9; 
+}
+
+
+.timeline-content {
+  position: relative;
+  margin-left: 100px;
+  background: #f5f5f5;
+  padding: 20px;
+  z-index: 2;
+}
+
+/* modal */
+
+#modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+}
+
+#modal-content {
+  background-color: #fefefe; /* white background */
+  margin: 15% auto; /* margin */
+  padding: 20px; /* padding */
+  border: 1px solid #888; /* border */
+  width: 80%; /* width */
+}
+
+.graphic-container {
+  max-width: 800px;
+  max-height: 500px;
+  overflow: auto;
+  margin:auto
+}
+
